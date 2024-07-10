@@ -80,6 +80,7 @@
     font-weight: 400;
     text-align: center;
     margin: 24px 47px 48px 47px;
+    opacity: 0.7;
 }
 .code{
     border-radius: 16px;
@@ -216,4 +217,83 @@
     border-radius: 16px;
     margin: 48px 0px;
     padding: 32px;
+}
+.target-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin: 150px 0 24px 0;
+}
+.target-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    width: 852px;
+    height: 52px;
+    text-align: center;
+    margin: 0 auto;
+    opacity: 0.7;
+    margin-bottom: 48px;
+}
+.languages{
+    display: flex;
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    gap: 24px;
+}
+.language-html{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    margin: 0px 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+}
+.img{
+    width: 56px;
+    height: 56px
+}
+.language-title{
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    margin: 24px 0 8px 0;
+    width: 284px;
+    height: 36px;
+}
+.language-description{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 24px ;
+    opacity: 0.7;
+    width: 284px;
+    height: 52px;
+}
+.anchor{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
+    width: 284px;
+    height: 20px;
+}
+.language-css{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    margin: 0px 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+}
+.language-js{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
 }
