@@ -50,23 +50,30 @@
     margin: 32px 0px;
     padding: 21px 24px 21px 24px;
 }
-.content{
+.container{
     margin: 74px 152px 88px 148px;
     background: rgba(13, 19, 33, 0.02);
+    width: 1140px;
+    height: 1395px;
+    margin: 80px auto ;
 }
-.content .content-main{
-    margin: 80px 97px 80px 97px;
+
+.container .content{
     text-align: center;
     border-radius: 16px;
+    width: 946px;
+    height: 1235px;
+    margin: 0 auto;
 }
-.content .content-title{
+.container .content .content-title{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
     text-align: center;
+    padding-top: 80px;
 }
-.content-main .content-description{
+.content .content-description{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -75,6 +82,8 @@
     margin: 24px 47px 48px 47px;
 }
 .code{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     display: flex;
     
 }
@@ -114,15 +123,61 @@
     opacity: 0.7;   
     display: flex;
     text-align: center;
-    justify-content: center;
-    align-items: center;
     padding: 12px 20px 12px 20px;
-    margin: 32px 0px;
+    margin-top: 32px;
 }
 .code .code-img{
     position: absolute;
     width: 259.56px;
-    height: 217.01px;
-    margin: 4px 14px 20px 100px;
+    height: 217.01px;   
+    margin: 48px 48px 0 100px;
+}
+.modern{
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    margin: 32px 0px;
+    padding-bottom: 48px;
+}
+.modern-main{
+    display: flex;
+    padding: 48px;
+}
 
+.modern .modern-primary{
+    position: static;
+    width: 477px;
+    height: 220px;
+    margin: 10px 101px 9.5px 32px;
+}
+.modern .modern-img{
+    width: 223.2px;
+    height: 208.85px;
+    margin-left: 30px;
+}
+.modern-primary .modern-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    width: 477px;
+    height: 72px;
+    margin: 16px 0px;
+}
+.modern-primary .modern-description{
+    color: rgb(13, 19, 33);
+    width: 468px;
+    height: 52px;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 16px 0px 32px 0px;
+    padding: 16px 0 32px 0;
 }
