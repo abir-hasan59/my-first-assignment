@@ -181,3 +181,39 @@
     margin: 16px 0px 32px 0px;
     padding: 16px 0 32px 0;
 }
+.zero-hero .zero-hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.zero-hero-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;;
+    text-align: center;
+    width: 852px;
+    height: 39px;
+    margin: 24px 0px;
+}
+.zero-hero-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    width: 852px;
+    height: 52px;
+    margin: 24px 0px;
+    opacity: 0.7;
+}
+.zero-hero iframe {
+    width: 1076px;
+    height: 550px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin: 48px 0px;
+    padding: 32px;
+}
